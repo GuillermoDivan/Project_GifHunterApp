@@ -1,8 +1,10 @@
-# React + Vite
+# Gif Hunter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was developed along the course "React: De cero a experto (Hooks y MERN)" on Udemy platform, by Fernando Herrera.
+This api consumes Giphy api in order to search and display gifs on demand.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+***
+
+Este proyecto fue desarrollado a lo largo del curso "React: De cero a experto (Hooks y MERN)" en la plataforma Udemy, impartido por Fernando Herrera.
+La API consume la API de Giphy para buscar y mostrar gifs a pedido.

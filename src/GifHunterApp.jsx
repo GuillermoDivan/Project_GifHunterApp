@@ -3,7 +3,7 @@ import { AddCategory, GifGrid } from "./components";
 
 export const GifHunterApp = () => {
 
-    const [categories, setCategories] = useState(['Pokemon', 'Sakura Card Captor']);
+    const [categories, setCategories] = useState(['House of Dragons', 'Lord of the Rings']);
     const onAddCategory = (newCategory) => {
         if(categories.includes(newCategory)){return;}
         setCategories([newCategory, ...categories]);
@@ -13,7 +13,6 @@ export const GifHunterApp = () => {
         <>
             <h1> GifHunterApp </h1>
             <AddCategory onNewCategory={onAddCategory}
-            //setCategories={setCategories}
             />
             {
             categories.map((category) => ( 
