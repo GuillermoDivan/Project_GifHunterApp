@@ -8,7 +8,7 @@ describe('Tests on <GifGrid />', () => {
 
     const category = 'Pedro Pascal';
 
-    test('Should show loading at first', () => { 
+    test('Should show "loading" at first', () => { 
         useFetchGifs.mockReturnValue({ images: [], isLoading: true })
 
         render(<GifGrid category={category} />);
